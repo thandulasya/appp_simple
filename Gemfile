@@ -7,7 +7,10 @@ gem 'rails', '3.0.0.rc'
 
 gem 'sqlite3-ruby', '1.2.5', :require => 'sqlite3'
 gem 'heroku'
-
+gem 'spork'
+ 
+gem 'ZenTest' 
+gem 'webrat'
 # Use unicorn as the web server
 # gem 'unicorn'
 
@@ -30,6 +33,6 @@ group :development  do
  gem 'rspec-rails'
 end
 group :test do
-	gem 'rspec', 
+	gem 'rspec'
 end
 
